@@ -14,9 +14,6 @@ public class TestConfig {
     public static void setup(){
 
         APICredentials ac = new APICredentials();
-        /*RestAssured.proxy("localhost",8888);
-        RestAssured.baseURI = "https://api.twitter.com";
-        RestAssured.basePath = "/1.1/";*/
 
         RequestSpecification requestSpecification = new RequestSpecBuilder()
                 .setBaseUri("https://api.twitter.com")
